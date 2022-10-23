@@ -1,0 +1,54 @@
+@charset 'UTF-8';
+
+@font-face {
+    font-family: PassionsOne;
+    src: url(Passion_One/PassionOne-Bold.ttf) format(truetype);
+    src: url(Passion_One/PassionOne-Black.ttf) format(truetype);
+    src: url(Passion_One/PassionOne-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Srira;
+    src: url(fontes/Sriracha/Sriracha-Regular.ttf) format(truetype);
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+header > h1 {
+    font-family: Srira;
+}
+
+header > p {
+    display: inline;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+p#letrero {
+    color: rgb(177, 177, 177);
+}
+
+main {
+    font-family: Srira;
+    font-size: 25px;
+    list-style: none;
+}
+
