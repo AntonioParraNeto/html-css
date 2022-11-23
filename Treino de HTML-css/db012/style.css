@@ -32,6 +32,7 @@ header {
 
 header > h1 {
     font-variant: small-caps;
+    font-size: 10vh
 }
 
 header > p {
@@ -59,6 +60,7 @@ section{
     padding-bottom: 10px;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 6vh;
 }
 
 section.imagem {
@@ -71,3 +73,6 @@ section.imagem> p {
     background-color: black;
 }
 
+section#imagemflor {
+    background-image: url(imagens/background001.jpg);
+} 
